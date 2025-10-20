@@ -23,13 +23,17 @@ Automatizar los flujos básicos de navegación web en [SauceDemo](https://www.sa
 pre-entrega-automation-testing-Natalia-Febo/
 
 * test/
+
     -test_saucedemo.py         # Tests automatizados
 
 * utils/
+
     -helpers.py                # Funciones auxiliares (login, driver)
 
 * reports/
+
     -reporte.html              # Reporte HTML generado
+    
     -screenshots/              # Capturas automáticas de cada test
 
 * conftest.py                   # Fixture y hook para screenshots
